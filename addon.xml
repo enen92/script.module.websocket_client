@@ -5,6 +5,7 @@
        provider-name="liris">
   <requires>
     <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.six" />
   </requires>
   <extension point="xbmc.python.module"
              library="lib" />
@@ -14,7 +15,7 @@
     <platform>all</platform>
     <license>BSD</license>
     <website>https://pypi.org/project/websocket_client/</website>
-    <source>https://github.com/Freso/script.module.idna</source>
+    <source>https://github.com/websocket-client/websocket-client</source>
     <email>liris.pp AT gmail.com</email>
     <assets>
       <icon>resources/icon.png</icon>
